@@ -1,0 +1,127 @@
+*{margin:0px padding:0px !important;}
+.product_item{
+	}
+
+.subitem
+{
+	background: #fff; !important;
+	box-shadow: 0px 0px 2px 1px #ccc;
+	padding: 15px 15px 15px 15px;
+	border-radius: 15px;
+	margin: 0px 0px 20px 0px;
+}
+.subitem-price{
+	color: #CF1417;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 5px 0px 5px 0px !important;
+}
+.img-resize{
+	max-height: 220px;
+	min-height: 220px;
+}
+.img-detail{
+	max-height: 100%;
+	max-width: 650px;
+	margin:auto !important;
+}
+.title{
+	float: left;
+	height: 60px;
+	color: #31708f;
+	font-size:25px;
+	margin: 20px 0px 0px 0px;
+	width: 100%;
+}
+.info-products{
+	float: left;
+	margin:10px;
+	text-align: justify;
+}
+
+.product-detail{
+	background:#fff;
+	box-shadow: 0px 0px 3px 2px #ccc;
+	padding: 20px;
+	border-radius: 0;
+	margin: 0px 0px 10px 0px;
+}
+.liveseach{
+	float:left;
+	z-index: 999;
+	min-height: 0px;
+}
+
+.search{
+	float:right;
+	margin-bottom: 10px;
+}
+.search:focus{
+}
+#result_order{
+	width:auto;
+	height: auto;
+	position: absolute;
+	top: 50%;left: 50%;
+	margin:-50px 0px 0px -100px;
+	display: none;
+	background: #fff;
+	box-shadow: 0px 0px 10px 6px #bbb;
+	border-radius: 30px;
+	z-index: 999999;
+	text-align: center;
+	padding: 20px 30px 30px 30px;
+}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon span {
+    position: absolute;
+    padding: 12px 12px;
+    pointer-events: none;
+}
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 50px;    
+}
+.right-inner-addon span {
+    position: absolute;
+    right: 0px;
+    padding: 8px 12px;
+    pointer-events: none;
+}
+#form-login{
+	padding: 20PX;
+	background-image:-webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+	background-image:-o-linear-gradient(top,#fff 0,#f8f8f8 100%);
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8));
+	background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled=true);
+}
+
+#form-login table tr td input[type="text"],
+#form-login table tr td input[type="password"]
+{
+	min-width: 150px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+	min-width: 250px;
+}
+#login-error{
+	height: auto;
+	text-align: center;
+	font-family: "PT Sans Narrow Regular","Volkhov", Arial, sans-serif;
+	padding-bottom: 20px;
+	color:#C63531;
+	display: hide;
+}

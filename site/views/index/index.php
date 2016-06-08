@@ -1,0 +1,1 @@
+<?php require_once PATH_SITE.'/views/main.php';?>
